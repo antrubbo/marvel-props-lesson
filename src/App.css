@@ -3,6 +3,18 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 
+#navbar {
+  text-align: center;
+  margin: 30px 0;
+}
+
+button {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  /* background: white;
+  border: 1px solid black; */
+}
+
 #heroesContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -24,8 +36,7 @@ body {
 
 #title {
   font-size: 50px;
-  text-align: center;
-  margin: 40px;
+  margin: 40px 0 10px;
 }
 
 

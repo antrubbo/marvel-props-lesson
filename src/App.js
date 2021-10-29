@@ -10,7 +10,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1 id="title">Marvel Superheroes!</h1>
+      <div id="navbar">
+        <h1 id="title">Marvel Superheroes!</h1>
+        <button>Add a Superhero!</button>
+      </div>
       <div id="heroesContainer">
       {/* <SpiderMan spiderMan={superHeroes[0]}/>
       <IronMan ironMan={superHeroes[6]}/> */}
