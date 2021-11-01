@@ -1,7 +1,8 @@
-import superHeroes from './superHeroes';
-import HeroCard from './HeroCard';
-import SpiderMan from'./SpiderMan'
-import IronMan from './IronMan';
+import superHeroes from './data/superHeroes';
+import HeroCard from './components/HeroCard';
+import SpiderMan from'./components/SpiderMan';
+import IronMan from './components/IronMan';
+import NavBar from './components/NavBar';
 import './App.css';
 
 function App() {
@@ -10,10 +11,11 @@ function App() {
 
   return (
     <div className="App">
-      <div id="navbar">
-        <h1 id="title">Marvel Superheroes!</h1>
-        <button>Add a Superhero!</button>
-      </div>
+     <div id="navbar">
+      <h1 id="title">Marvel Superheroes!</h1>
+       <button>Add a Superhero!</button>
+     </div>
+      {/* <NavBar /> */}
       <div id="heroesContainer">
       {/* <SpiderMan spiderMan={superHeroes[0]}/>
       <IronMan ironMan={superHeroes[6]}/> */}
